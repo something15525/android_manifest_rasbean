@@ -1,0 +1,3 @@
+repo init -u git://github.com/rascarlo/platform_manifest.git -b vanilla-mr1.1
+
+i am [@rascarlo](https://twitter.com/rascarlo) on Twitter
