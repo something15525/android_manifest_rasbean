@@ -36,6 +36,9 @@
   <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="rascarlo" revision="vanilla-mr1.1" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" groups="device,manta" remote="rascarlo" revision="vanilla-mr1.1" />
+  <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="rascarlo" revision="vanilla-mr1.1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -343,7 +346,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="vanilla-mr1.1" />
-
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
   <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
 </manifest>
