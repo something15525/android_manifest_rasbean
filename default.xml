@@ -24,6 +24,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
@@ -344,6 +345,7 @@
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="vanilla-mr1.1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="jb-ras-mr1.1" />
