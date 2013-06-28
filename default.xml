@@ -11,6 +11,8 @@
            fetch="git://github.com/koush/" />
   <remote name="SoMeX"
 	   fetch="git://github.com/SomethingExplosive/" />
+  <remote name="something15525"
+	   fetch="git://github.com/something15525" />
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -356,7 +358,7 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="jb-ras-mr1.1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="SoMeX" revision="somex-4.2" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="jb-ras-mr1.1" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="something15525" revision="jb-ras-mr1.1" />
 
   <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
   <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
